@@ -16,7 +16,46 @@
                 <a href="{{route('company.list')}}" class="nav-link {{ request()->routeIs('company.list') ? 'active' : '' }}">
                   <i class="nav-icon fas fa-th"></i>
                   <p>
-             Company Details
+            About Us
+                    
+                  </p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{route('services.list')}}" class="nav-link {{ request()->routeIs('services.list') ? 'active' : '' }}">
+                  <i class="nav-icon fas fa-th"></i>
+                  <p>
+          Services
+                    
+                  </p>
+                </a>
+              </li>
+         
+              <li class="nav-item">
+                <a href="{{route('clients.list')}}" class="nav-link {{ request()->routeIs('clients.list') ? 'active' : '' }}">
+                  <i class="nav-icon fas fa-th"></i>
+                  <p>
+         Clients
+                    
+                  </p>
+                </a>
+              </li>
+         
+              <li class="nav-item">
+                <a href="{{route('testimonials.list')}}" class="nav-link {{ request()->routeIs('testimonials.list') ? 'active' : '' }}">
+                  <i class="nav-icon fas fa-th"></i>
+                  <p>
+        Testimonials
+                    
+                  </p>
+                </a>
+              </li>
+         
+              <li class="nav-item">
+                <a href="{{route('experts.list')}}" class="nav-link {{ request()->routeIs('experts.list') ? 'active' : '' }}">
+                  <i class="nav-icon fas fa-th"></i>
+                  <p>
+       Technologies
                     
                   </p>
                 </a>
